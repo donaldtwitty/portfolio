@@ -717,6 +717,25 @@ h6 {
   padding: 0;
 }
 
+@media (max-width: 768px) {
+  #portfolio-details {
+    padding: 20px 0;
+  }
+
+  #portfolio-details .gy-4 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #portfolio-details .portfolio-info,
+  #portfolio-details .portfolio-description {
+    width: 100%;
+  }
+
+  #portfolio-details .portfolio-description {
+    margin-top: 20px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
