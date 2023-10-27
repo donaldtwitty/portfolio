@@ -1031,6 +1031,23 @@ h6 {
   }
 }
 
+@media (max-width: 768px) {
+  #contact {
+    padding: 20px 0;
+  }
+
+  #contact .info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #contact .info .address,
+  #contact .info .email,
+  #contact .info .phone {
+    margin-bottom: 20px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
