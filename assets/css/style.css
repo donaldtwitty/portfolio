@@ -628,6 +628,23 @@ h6 {
   bottom: 0;
 }
 
+@media (max-width: 768px) {
+  #portfolio {
+    padding: 20px 0;
+  }
+
+  #portfolio .portfolio-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #portfolio .portfolio-item {
+    width: 100%;
+  }
+
+  #portfolio .portfolio-links {
+    justify-content: center;
+  }
+}
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
