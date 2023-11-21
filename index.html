@@ -6,7 +6,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EBNVTR45FF"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-EBNVTR45FF');
@@ -17,7 +21,8 @@
     <title>Donald C. Twitty, Jr. | Full Stack Developer | Web Design & Development | San Antonio, Texas</title>
     <meta content="Donald C. Twitty, Jr. is a full-stack software developer and UI/UX designer. View his portfolio, resume, and recommendations. Contact him for more details."
           name="description">
-    <meta content="web developer, full stack developer, software developer, front end developer, back end developer, web designer" name="keywords">
+    <meta content="web developer, full stack developer, software developer, front end developer, back end developer, web designer"
+          name="keywords">
     <meta name="location" content="San Antonio, Texas">
 
     <!-- Favicons -->
@@ -74,8 +79,8 @@
                 </li>
                 <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
                     <span>Portfolio</span></a></li>
-<!--                <li><a href="#partners" class="nav-link scrollto"><i class="bx bx-book-content"></i>-->
-<!--                    <span>Partners</span></a></li>-->
+                <!--                <li><a href="#partners" class="nav-link scrollto"><i class="bx bx-book-content"></i>-->
+                <!--                    <span>Partners</span></a></li>-->
                 <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a>
                 </li>
                 <li><a href="#recommendations" class="nav-link scrollto"><i class="bx bxs-quote-left"></i> <span>Recommendations</span></a>
@@ -414,19 +419,21 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ====== Partners Section ====== -->
-<!--    <section id="partners" class="partners">-->
-<!--        <div class="container">-->
-<!--            <div class="section-title">-->
-<!--                <h2>Partners</h2>-->
-<!--                    <img src="assets/img/ccm.png">-->
-<!--                    <h1>Charlotte Content Marketing</h1>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
+    <section id="partners" class="partners">
+        <div class="container">
+            <div class="section-title">
+                <h2>Partners</h2>
+                <div data-aos="fade-up">
+                    <img class="partner_img" src="assets/img/ccm.png">
+                    <a href="https://www.charlottecontentmarketing.com/" target="_blank" class="partner_text">Charlotte Content Marketing</a>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- ====== Partners Section ====== -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <section id="services" class="services section-bg">
         <div class="container">
 
             <div class="section-title">
@@ -483,7 +490,7 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Recommendation Section ======= -->
-    <section id="recommendations" class="testimonials section-bg">
+    <section id="recommendations" class="testimonials">
         <div class="container">
 
             <div class="section-title">
@@ -557,7 +564,7 @@
     </section><!-- End Recommendation Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact section-bg">
         <div class="container">
 
             <div class="section-title">
