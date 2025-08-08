@@ -1153,3 +1153,85 @@ h6 {
     padding-right: 20px;
   }
 }
+
+/*--------------------------------------------------------------
+# Project Cards
+--------------------------------------------------------------*/
+.project-card {
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: white;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.project-img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.tech-stack .badge {
+  font-size: 0.75rem;
+}
+
+.project-badge-html {
+  background-color: #e4edf9 !important;
+  color: #173b6c !important;
+}
+
+.project-badge-js {
+  background-color: #dff3fc !important;
+  color: #173b6c !important;
+}
+
+.project-badge-bootstrap {
+  background-color: #f5f8fd !important;
+  color: #173b6c !important;
+}
+
+.project-btn {
+  background-color: #149ddd !important;
+  color: white !important;
+  border: none !important;
+}
+
+.project-btn:hover {
+  background-color: #37b3ed !important;
+  color: white !important;
+}
+
+/*--------------------------------------------------------------
+# Contact Items
+--------------------------------------------------------------*/
+.contact-item {
+  padding: 30px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateY(-5px);
+}
+
+.contact-icon {
+  width: 60px;
+  height: 60px;
+  background: #149ddd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.contact-icon i {
+  font-size: 24px;
+  color: white;
+}
