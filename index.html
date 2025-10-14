@@ -77,8 +77,13 @@
 </head>
 <body>
 
+<!-- Skip to main content link -->
+<a href="#main" class="skip-link sr-only sr-only-focusable">Skip to main content</a>
+
 <!-- ======= Mobile nav toggle button ======= -->
-<i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+<button class="mobile-nav-toggle d-xl-none" aria-label="Toggle navigation menu" aria-expanded="false">
+    <i class="bi bi-list" aria-hidden="true"></i>
+</button>
 
 <!-- ======= Header ======= -->
 <header id="header">
@@ -88,35 +93,41 @@
             <img src="assets/img/me05.jpg" alt="Donald C. Twitty, Jr. - Full Stack Developer" class="img-fluid rounded-circle">
             <h1 class="text-light"><a href="index.html">Donald C. Twitty, Jr.</a></h1>
             <div class="social-links mt-3 text-center">
-                <a href="https://github.com/donaldtwitty" target="_blank" class="github"><i
-                        class="bx bxl-github"></i></a>
-                <a href="https://www.linkedin.com/in/donaldctwittyjr/" target="_blank" class="linkedin"><i
-                        class="bx bxl-linkedin"></i></a>
-                <a href="https://www.facebook.com/DonaldCTwittyJr/" target="_blank" class="facebook"><i
-                        class="bx bxl-facebook"></i></a>
-                <a href="mailto:donald@purposefulsolutionswebdesign.com" target="_blank" class="email"><i
-                        class="bx bx-mail-send"></i></a>
-                <a href="tel:9157046261" target="_blank" class="mobile"><i class="bx bx-phone"></i></a>
+                <a href="https://github.com/donaldtwitty" target="_blank" class="github" aria-label="Visit Donald's GitHub profile">
+                    <i class="bx bxl-github" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/donaldctwittyjr/" target="_blank" class="linkedin" aria-label="Visit Donald's LinkedIn profile">
+                    <i class="bx bxl-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.facebook.com/DonaldCTwittyJr/" target="_blank" class="facebook" aria-label="Visit Donald's Facebook page">
+                    <i class="bx bxl-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="mailto:donald@purposefulsolutionswebdesign.com" target="_blank" class="email" aria-label="Send email to Donald">
+                    <i class="bx bx-mail-send" aria-hidden="true"></i>
+                </a>
+                <a href="tel:9157046261" target="_blank" class="mobile" aria-label="Call Donald at (915) 704-6261">
+                    <i class="bx bx-phone" aria-hidden="true"></i>
+                </a>
             </div>
         </div>
 
-        <nav id="navbar" class="nav-menu navbar">
+        <nav id="navbar" class="nav-menu navbar" role="navigation" aria-label="Main navigation">
             <ul>
-                <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
+                <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home" aria-hidden="true"></i> <span>Home</span></a>
                 </li>
-                <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-                <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a>
+                <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user" aria-hidden="true"></i> <span>About</span></a></li>
+                <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank" aria-hidden="true"></i> <span>Resume</span></a>
                 </li>
-                <li><a href="#project" class="nav-link scrollto"><i class="bx bx-book-content"></i>
+                <li><a href="#project" class="nav-link scrollto"><i class="bx bx-book-content" aria-hidden="true"></i>
                     <span>Projects</span></a></li>
-                <li><a href="#partners" class="nav-link scrollto"><i class="bx bi-people"></i>
+                <li><a href="#partners" class="nav-link scrollto"><i class="bx bi-people" aria-hidden="true"></i>
                     <span>Partners</span></a></li>
-                <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Approach</span></a>
+                <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server" aria-hidden="true"></i> <span>Approach</span></a>
                 </li>
-                <li><a href="#recommendations" class="nav-link scrollto"><i class="bx bxs-quote-left"></i>
+                <li><a href="#recommendations" class="nav-link scrollto"><i class="bx bxs-quote-left" aria-hidden="true"></i>
                     <span>Trusted</span></a>
                 </li>
-                <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a>
+                <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope" aria-hidden="true"></i> <span>Contact</span></a>
                 </li>
             </ul>
         </nav><!-- .nav-menu -->
@@ -124,10 +135,10 @@
 </header><!-- End Header -->
 
 <!-- ======= Hero Section ======= -->
-<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+<section id="hero" class="d-flex flex-column justify-content-center align-items-center" role="banner">
     <div class="hero-container" data-aos="fade-in">
         <h1>Donald C. Twitty, Jr.</h1>
-        <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer"></span></p>
+        <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer" aria-live="polite"></span></p>
     </div>
 </section><!-- End Hero -->
 
